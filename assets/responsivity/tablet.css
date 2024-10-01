@@ -1,0 +1,69 @@
+@media screen and (max-width: 1024px){
+
+    .container{
+        margin: 0;
+    }
+
+    /*---------------------------- Navbar ---------------------*/
+    .navigation-button{
+        display: none;
+    }
+
+    /*---------------------------- Hero ---------------------*/
+
+    .hero-text{
+        margin-left: 5rem;
+        margin-top:15rem;
+    }
+
+    .container > picture > img{
+        height: 49rem;
+    }
+
+    /*---------------------------- about ---------------------*/
+    .about-card > img {
+        height: 8rem;
+    }
+
+    .about-text{
+        gap: 1rem;
+    }
+
+    .about-text > p{
+        font-size: 1.2rem;
+    }
+
+    /*---------------------------- Do you know ---------------------*/
+    .do-you-know .container{
+        padding: 0 1.6rem;
+    }
+
+    .question-card{
+        padding: 1rem !important;
+    }
+
+    /* ----------------------contact-us----------------------------------- */
+    
+    .contact-us .container{
+        padding: 0 1.6rem;
+    }
+
+    .map{
+        width: 35rem;
+    }
+
+    /* ----------------------footer----------------------------------- */
+    .footer > .container{
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+    
+    .footer .container .action-button{
+        display: none;
+    }
+
+    .footer h2{
+        display: none;
+    }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/*Components*/
+@import url(../components/about-card/about-card.css);
+@import url(../components/button/button.css);
+@import url(../components/card-hero/card-hero.css);
+@import url(../components/card-testimonials/card-testimonials.css);
+@import url(../components/card-services/card-services.css);
+@import url(../components/card-do-you-know/card-do-you-know.css);
+@import url(../components/burger-menu/burger-menu.css);
+@import url(../components/whatsapp-icon/whatsapp-icon.css);
+
+/* templates */
+@import url(../templates/about/about.css);
+@import url(../templates/aside/aside.css);
+@import url(../templates/header/header.css);
+@import url(../templates/hero/hero.css);
+@import url(../templates/testimonials/testimonials.css);
+@import url(../templates/services/services.css);
+@import url(../templates/do-you-now//do-you-now.css);
+@import url(../templates/contact-us/contact-us.css);
+@import url(../templates/footer/footer.css);
+@import url(../templates/paralax/paralax.css);

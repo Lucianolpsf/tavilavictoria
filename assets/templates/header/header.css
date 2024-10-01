@@ -1,0 +1,53 @@
+.header {
+    position: fixed;
+    z-index: 10;
+    background-color: var(--light-background);
+    justify-content: center;
+    box-shadow: 0rem .4rem 1.5rem var(--shadow);
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 5rem; */
+
+}
+
+.header button {
+    width: 21.8rem;
+    height: 3.5rem;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navigation > ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation > ul > li {
+    display: inline-block;
+    transition: 1s;
+    position: relative;
+}
+
+.navigation > ul > li > a{
+    padding: 1.6rem 1rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.navigation > ul > li:hover::after{
+    content: "";
+    width: 100%;
+    height: .2em;
+    background-color: var(--medium-text);
+    position: absolute;
+    left: 0;
+    top: 2rem;
+}

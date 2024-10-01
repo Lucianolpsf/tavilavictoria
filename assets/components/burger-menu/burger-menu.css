@@ -1,0 +1,36 @@
+.toggle-menu{
+    height: 5rem;
+    width: 4rem;
+}
+
+.toggle-button{
+    display: none;
+    position: fixed;
+    right: 3.5rem;
+    top: 1.3rem;
+    width: 4rem;
+    height: .3rem;
+    background-color: var(--orange-button);
+    cursor: pointer;
+    /* position: relative; */
+}
+
+.toggle-button::after,
+.toggle-button::before{
+    content: '';
+    width: 4rem;
+    height: .3rem;
+    background-color: var(--orange-button);
+}
+
+.toggle-button::before{
+    top: 1rem;
+    right: 0rem;
+    position: absolute;
+}
+
+.toggle-button::after{
+    top: 2rem;
+    right: 0rem;
+    position: absolute;
+}

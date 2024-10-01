@@ -1,0 +1,27 @@
+.about{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.about .container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+.about .card-section{
+    display: flex;
+}
+
+.card-section > img{
+    height: 64.7rem;
+}
+
+.card-section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 4rem;
+}

@@ -1,0 +1,20 @@
+.testmonials{
+    padding-top: 6rem;
+}
+
+.testmonials .container{
+    text-align: center;
+}
+
+.testmonials .container > h3{
+    font-family: var(--font-secondary);
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+.testmonials-call {
+    text-align: center;
+}
+
+.testmonials .action-button{
+    margin: 3.0rem 0 8rem 0 !important;
+}

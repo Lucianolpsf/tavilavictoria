@@ -1,0 +1,16 @@
+.card-hero{
+    width: 25.5rem;
+    height: 19.9rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 .6rem var(--shadow);
+}
+
+.card-hero p{
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+.about-card{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 2rem;
+    text-align: start;
+}
+
+.about-card:first-child img{
+    margin-right: -1rem;
+}
+
+.about-card > img{
+    width: 11.9rem;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

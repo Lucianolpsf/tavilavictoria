@@ -1,0 +1,27 @@
+button {
+    width: 37rem;
+    height: 6rem;
+    border: none;
+    border-radius: 0.7rem;
+    font-family: var(--font-title);
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: var(--white-text);
+    background-color: var(--light-button);
+    box-shadow: 0rem .4rem .91rem var(--shadow);
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--dark-button);
+}
+
+.footer .action-button, .do-you-know .action-button{
+    background-color: var(--orange-button);
+    box-shadow: 0rem .4rem .91rem var(--orange-button-shadow);
+}
+
+.do-you-know .action-button{
+    margin: 2.0rem 0 6.4rem 0;
+}

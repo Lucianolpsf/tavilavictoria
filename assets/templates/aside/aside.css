@@ -1,0 +1,11 @@
+.aside-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -8.4rem;
+}
+.aside-hero{
+    display: flex;
+    gap: 2rem;
+}

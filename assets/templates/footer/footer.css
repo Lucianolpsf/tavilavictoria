@@ -1,0 +1,38 @@
+.footer{
+    background-color: var(--dark-background);
+}
+
+.footer h2, .footer p, .footer address, .footer small , .footer a{
+    color: var(--white-text) !important;
+}
+
+.footer > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2.0rem;
+    align-items: center;
+}
+
+.social-medias , .social-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.0rem;
+}
+
+.container > .action-button{
+    margin: 0;
+}
+
+address{
+    font-size: 1.0rem;
+}
+footer small{
+    font-size: 1.0rem;
+}

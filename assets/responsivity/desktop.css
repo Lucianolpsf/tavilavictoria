@@ -1,0 +1,61 @@
+@media screen and (max-width: 1360px){
+
+    /*---------------------- General ------------------------*/
+
+    h1 {
+        font-size: 3.6rem;
+    }
+    
+    h2{
+        font-size: 2.4rem;
+    }
+    
+    h3{
+        font-size: 1.6rem;
+    }
+    
+    p{
+        font-size: 1.4rem;
+    }
+
+    .container{
+        max-width: 98rem;
+    }
+
+    /* ------------------------Hero------------------------ */
+    .hero{
+        height: 70rem;
+    }
+
+    .container > article  h2{
+        font-size: 3.8rem;
+    }
+
+    .container > picture > img{
+        height: 60rem;
+    }
+
+    /*--------------------- about ----------------------*/
+    .about > .container > h2{
+        margin: 0 0 4rem 0
+    }
+
+    .about-img{
+        height: 50rem !important;
+    }
+
+    /* ----------------------contact-us----------------------------------- */
+    .contact-us-title{
+        font-size: 3.6rem;
+    }
+
+    .map{
+        width: 45rem;
+    }
+
+/* ----------------------footer----------------------------------- */
+    footer .container .action-button{
+        width: 25rem;
+        height: 4rem;
+    }
+}
