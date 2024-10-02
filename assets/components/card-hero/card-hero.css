@@ -11,6 +11,10 @@
     box-shadow: 0 0 .6rem var(--shadow);
 }
 
+.card-hero h3{
+    font-size: 1.8rem;
+}
+
 .card-hero p{
     text-align: center;
 }
